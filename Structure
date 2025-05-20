@@ -1,0 +1,26 @@
+deliberative-democracy-platform/
+│
+├── backend/
+│   ├── app/
+│   │   ├── __init__.py
+│   │   ├── main.py
+│   │   ├── models/
+│   │   ├── schemas/
+│   │   ├── crud/
+│   │   ├── services/
+│   │   └── api/
+│   │
+│   ├── tests/
+│   ├── alembic/
+│   ├── requirements.txt
+│   └── Dockerfile
+│
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   ├── package.json
+│   └── Dockerfile
+│
+├── docker-compose.yml
+├── nginx.conf
+└── README.md
