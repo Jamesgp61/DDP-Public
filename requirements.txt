@@ -1,0 +1,21 @@
+# Create project directory
+mkdir deliberative-democracy-platform
+cd deliberative-democracy-platform
+
+# Set up Python virtual environment
+python3 -m venv venv
+source venv/bin/activate
+
+# Install core dependencies
+pip install fastapi
+pip install "uvicorn[standard]"
+pip install sqlalchemy
+pip install alembic
+pip install passlib[bcrypt]
+pip install python-jose[cryptography]
+pip install transformers
+pip install torch
+pip install tensorflow
+pip install spacy
+pip install redis
+pip install celery
